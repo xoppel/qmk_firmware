@@ -47,5 +47,3 @@
 // Enable current limiting for RGB underglow.
 #define RGBSTRIP_CURRENT_LIMIT 400    // Strip current limit in mA. (USB amperage - 500mA for keyboard)
 #define RGBSTRIP_MAX_CURRENT_PER_LIGHT 50 // mA per light when at max brightness.
-
-#define PREVENT_STUCK_MODIFIERS
