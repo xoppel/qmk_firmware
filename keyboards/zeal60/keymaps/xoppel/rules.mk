@@ -15,7 +15,7 @@ RGBLIGHT_ENABLE = yes       # Enable WS2812 RGB underlight.
 SLEEP_LED_ENABLE ?= no    # Breathing sleep LED during USB suspend
 
 #RAW_ENABLE = yes
-RAW_ENABLE = no
+#RAW_ENABLE = no
 #DYNAMIC_KEYMAP_ENABLE = yes
-DYNAMIC_KEYMAP_ENABLE = no
-CIE1931_CURVE = yes
+#DYNAMIC_KEYMAP_ENABLE = no
+#CIE1931_CURVE = yes
