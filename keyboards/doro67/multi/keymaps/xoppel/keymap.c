@@ -32,7 +32,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_TAB,  KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,    KC_LBRC, KC_RBRC, KC_BSLS,          KC_PGUP,
     KC_LCTL, KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT, KC_ENT,                    KC_PGDN,
     KC_LSFT, xxxxxxx, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_RSFT, KC_UP,            KC_END,
-    MO(_FL), KC_LGUI, KC_LALT,          KC_BSPC, KC_DEL,  KC_SPC,           KC_RALT, MO(_FL), xxxxxxx,          KC_LEFT, KC_DOWN, KC_RGHT
+    MO(_FL), KC_LGUI, KC_LALT,          xxxxxxx, KC_SPC,  xxxxxxx,          KC_RALT, MO(_FL), xxxxxxx,          KC_LEFT, KC_DOWN, KC_RGHT
   ),
  /* Keymap _FL: Function Layer
   */
@@ -41,7 +41,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     _______, KC_MPRV, KC_MPLY, KC_MNXT, RGB_TOG, BL_TOGG, _______, KC_PGUP, KC_HOME, KC_PGDN, KC_PSCR, KC_SLCK, KC_PAUS, _______,          KC_VOLU,
     _______, _______, KC_VOLD, KC_VOLU, KC_PGDN, _______, KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_INS,  _______, _______,                   KC_VOLD,
     _______, xxxxxxx, KC_WBAK, KC_WFWD, _______, _______, KC_PGUP, KC_END,  KC_MUTE, KC_MPRV, KC_MNXT, KC_MPLY, _______, KC_PGUP,          KC_MUTE,
-    _______, _______, _______,          _______, _______, KC_BSPC,          MO(_CL), _______, xxxxxxx,          KC_MPRV, KC_PGDN, KC_MNXT 
+    _______, _______, _______,          xxxxxxx, KC_BSPC, xxxxxxx,          MO(_CL), _______, xxxxxxx,          KC_MPRV, KC_PGDN, KC_MNXT 
   ),
  /* Keymap _NL: Numpad layer - UNUSED
   */
