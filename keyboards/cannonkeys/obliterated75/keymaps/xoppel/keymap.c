@@ -1,6 +1,5 @@
 #include QMK_KEYBOARD_H
 
-#define _______ KC_TRNS
 #define xxxxxxx KC_NO
 
 // Each layer gets a name for readability, which is then used in the keymap matrix below.
