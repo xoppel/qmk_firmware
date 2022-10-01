@@ -15,7 +15,6 @@
  */
 #include QMK_KEYBOARD_H
 
-#define _______ KC_TRNS
 #define xxxxxxx KC_NO
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
@@ -30,11 +29,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_GRV,  KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_DEL,  KC_CALC,  KC_VOLU,
     _______, KC_MPRV, KC_MPLY, KC_MNXT, RGB_TOG, BL_TOGG, _______, KC_PGUP, KC_HOME, KC_PGDN, KC_PSCR, KC_SLCK, KC_PAUS, KC_INS,  KC_MUTE,  KC_VOLD,
     _______, _______, _______, KC_VOLD, KC_VOLU, KC_PGDN, _______, KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_INS,           _______,
-    _______, KC_WBAK, KC_WFWD, _______, _______, KC_PGUP, KC_END,  KC_MUTE, KC_MPRV, KC_MPLY, _______, _______,                   KC_PGUP,
-    KC_VOLU, KC_VOLD, KC_MUTE,                KC_BSPC,                               _______, MO(2),   _______,          KC_MPRV, KC_PGDN, KC_MNXT),
+    MO(2),   KC_WBAK, KC_WFWD, _______, _______, KC_PGUP, KC_END,  KC_MUTE, KC_MPRV, KC_MPLY, _______, _______,                   KC_PGUP,
+    _______, _______, _______,                KC_BSPC,                               _______, MO(2),   _______,          KC_MPRV, KC_PGDN, KC_MNXT),
 
 [2] = LAYOUT_68_ansi( /* FN2 */
-    _______, ES_INC,  _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
+    _______, ES_INC,  _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, KC_CALC,
     _______, ES_DEC,  _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
     _______, EF_INC,  S1_DEC,  S1_INC,  S2_DEC,  S2_INC,  RGB_HUI, RGB_SAI, RGB_VAI, RGB_MOD, _______, _______,          _______,
     _______, EF_DEC,  BL_INC,  BL_DEC,  BL_TOGG, BL_BRTG, RGB_HUD, RGB_SAD, RGB_VAD, _______, _______, _______,                   _______,
